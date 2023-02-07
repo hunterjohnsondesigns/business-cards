@@ -168,7 +168,7 @@ body {
 .card::after {
   position: absolute;
   content: "";
-  top: calc(var(--card-height) / 6);
+  top: calc(var(260px) / 6);
   left: 0;
   right: 0;
   z-index: -1;
