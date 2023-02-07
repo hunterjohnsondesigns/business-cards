@@ -10,7 +10,7 @@
 body {
     background-color: gray;
     background-image: url('assets/main-bg.jpg');
-    background-size: 1080px
+    background-size: 130%;
 }
 /* the main container */
 
@@ -107,3 +107,5 @@ svg{
   animation:pulse; 
   animation-duration: 2s;
 }
+
+
