@@ -16,6 +16,7 @@ body {
 
 .front-side,
 .back-side {
+  display: flex;
   width: 441px;
   height: 254px;
   position: relative;
@@ -71,24 +72,7 @@ body {
   grid-gap: 10px;
 }
 
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
 
-
-/* h3{
-  margin-bottom: 0px;
-}
-
-h5{
-  margin-top: 0px;
-  padding-top: 0px;
-} */
-
-
-/* svg styling */
-/* .st0{display:none;} */
 .st1{display:inline;}
 
 svg{
@@ -108,7 +92,7 @@ svg{
   animation-duration: 2s;
 }
 
-/* new experimental code */
+/* new LED code */
 
 @property --rotate {
   syntax: "<angle>";
