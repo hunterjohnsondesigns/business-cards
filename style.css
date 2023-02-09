@@ -6,6 +6,15 @@
 
     }
 
+h1 {
+     font-family: "mr-eaves-xl-modern", sans-serif;
+     font-weight:800;
+     font-style: normal;
+    z-index: 1;
+      margin-top: 60px;
+      text-align:center;
+      color: #d2ffc5;
+    }
 
 body {
     background-color: gray;
