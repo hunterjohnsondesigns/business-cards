@@ -11,9 +11,11 @@ h1 {
      font-weight:800;
      font-style: normal;
     z-index: 1;
+      padding: 30px;
       margin-top: 60px;
       text-align:center;
       color: #d2ffc5;
+     
     }
 
 body {
@@ -66,6 +68,7 @@ body {
   width:85%;
   margin: 0 auto;
 }
+
 
 .icon-container{
   position: absolute;
@@ -127,8 +130,7 @@ body {
 
 .card {
   top: 30px;
-  background: #191c29;
-  width: 441px;
+  width: 440px;
   height: 250px;
   padding: 3px;
   position: relative;
@@ -150,7 +152,7 @@ body {
   border-radius: 8px;
   background-image: linear-gradient(
     var(--rotate)
-    , #d7e9c3, #a9ee74 43%, #37ff00);
+    , #d7e9c3, #7a9b60 43%, #417932);
     position: absolute;
     z-index: -1;
     top: -1%;
@@ -172,7 +174,7 @@ body {
   filter: blur(calc(var(--card-height) / 6));
   background-image: linear-gradient(
     var(--rotate)
-    , #d7e9c3, #a9ee74 43%, #37ff00);
+    , #d7e9c3, #7a9b60 43%, #417932);
     opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
