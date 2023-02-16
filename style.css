@@ -23,6 +23,15 @@ body {
     background-image: url('assets/main-bg.jpg');
     background-size: 130%;
 }
+
+@media screen and (max-width: 1200px) {
+  body{
+   transform-origin: top;
+   transform: scale(1.5);
+   margin:0 auto;
+  }
+   }
+
 /* the main container */
 
 .front-side,
